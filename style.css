@@ -1,0 +1,214 @@
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.navbar-custom {
+    background-color: black;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    padding: 16px;
+}
+
+.dropdown-menu .dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+a {
+    text-transform: uppercase;
+    transition: all .5s;
+}
+
+a:link {
+    display: block;
+    padding: inherit;
+}
+
+a:hover {
+    background-color: gray;
+    display: block;
+}
+
+.iconStyling {
+    color: white;
+}
+
+
+.sectionAbout, .sectionContact {
+    background-color: white;
+    padding: 2rem;
+}
+
+.carousel {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.headerStyle,
+.textStyle,
+.tourHeader {
+    text-align: center;
+}
+
+.tourHeader {
+    color: white;
+}
+
+.captionStyle {
+    text-align: center;
+    opacity: 0.5;
+    font-style: italic;
+}
+
+.tour_captionStyle {
+    text-align: center;
+    color: gray;
+    font-style: italic;
+}
+
+.aboutStyle {
+    text-align: justify;
+}
+
+.imgCenter {
+    display: block;
+    margin: auto;
+}
+
+.sectionTourDates {
+    background-color: black;
+    padding: 2rem;
+}
+
+.tourDates {
+    color: gray;
+    background-color: white;
+    width: 100%;
+}
+
+table {
+    border: 1px solid gray;
+}
+
+td {
+    padding: 8px;
+    border-bottom: 0.2px dotted gray;
+}
+
+.soldOut {
+    background-color: red;
+    color: white;
+    padding: 4px;
+}
+
+.ticketsNum {
+    float: right;
+}
+
+.btnStyling {
+    background-color: black;
+    color: white;
+}
+
+#sendBtn{
+    float:right
+}
+
+.iconColor{
+    color:black;
+}
+
+.labelStyling{
+    text-transform: none;
+}
+
+.modal-header, .payBttn{
+    background-color: #009688!important;
+}
+
+.modal-title{
+    color:white;
+}
+
+.helpSpan{
+    color:blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.btnStyling:hover{
+    color:black;
+    background-color:gray;
+}
+
+.close:not(:disabled):not(.disabled) {
+    color: white;
+}
+
+.close{
+    color: white;
+    opacity: 1;
+}
+
+.footerStyle{
+    background-color:#f1f1f1!important;
+    padding: 48px;
+    
+}
+
+#facebook-hover:hover{
+    color: #3b5998;
+    opacity: none;
+}
+
+#snapchat-hover:hover{
+    color: #fffc00; 
+    opacity: none;
+}
+
+#insta-hover:hover{
+    color:  #3f729b;
+    opacity: none;
+}
+
+#pinterest-hover:hover{
+    color: #c8232c;
+    opacity: none;
+}
+
+#twitter-hover:hover{
+    color: #00acee;
+    opacity: none;
+}
+
+#linkedin-hover:hover{
+    color: #0077B5;
+    opacity: none;
+}
+
+.socialWrapper{
+    margin: auto;
+}
+
+.fab{
+    margin:2px;
+    opacity:0.5;
+    cursor: pointer;
+}
+
+
+
